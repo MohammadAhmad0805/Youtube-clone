@@ -1,0 +1,92 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <div className="flex mt-29 justify-between p-5 flex-1 shrink flex-wrap">
+//             {filteredVideos.map((video, index) => (
+//               <div
+//                 key={index}
+//                 className={`bg-white overflow-hidden mb-4 max-sm:w-screen max-md:w-[45%] max-lg:w-[32%] max-xl:w-[32.5%] ${isSidebarOpen ? "w-79" : "w-89"}`}
+//               >
+//                 <a
+//                   href={`https://www.youtube.com/watch?v=${video.id}`}
+//                   target="_blank"
+//                   rel="noopener noreferrer"
+//                   className="block"
+//                 >
+//                   <div className="relative group">
+//                     <iframe
+//                       className={`w-full rounded-[0.8vw] max-sm:h-71 max-sm:rounded-[3vw] pointer-events-none ${isSidebarOpen ? "h-44" : "h-50" }`}
+//                       src={`https://www.youtube.com/embed/${video.id}?mute=1&controls=0&modestbranding=1&rel=0`}
+//                       title={video.title}
+//                       allowFullScreen
+//                     ></iframe>
+
+//                     <iframe
+//                       className={`absolute inset-0 w-full h-full rounded-[0.8vw] max-sm:rounded-[3vw] opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none`}
+//                       src={`https://www.youtube.com/embed/${video.id}?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0`}
+//                       title={`${video.title}-hover`}
+//                       allow="autoplay; encrypted-media"
+//                     ></iframe>
+//                   </div>
+
+//                   <div className="p-3">
+//                     <p className="font-[500] text-[16px] line-clamp-2 font-sans">
+//                       {video.title}
+//                     </p>
+//                     <p className="text-sm text-gray-600">
+//                       tabii Urdu · 15M views · 3 years ago
+//                     </p>
+//                   </div>
+//                 </a>
+//               </div>
+//             ))}
+//           </div>
