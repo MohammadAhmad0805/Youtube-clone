@@ -182,12 +182,13 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className=" p-3 md:block  max-sm:hidden rounded-full bg-gray-100">
+            <div className=" px-3 md:block   max-sm:hidden rounded-full bg-gray-100">
               <Image
                 src="/images/mic-microphone-icon.webp"
                 alt="microphone Logo"
                 width={20}
                 height={1}
+                className="items-center justify-center flex flex-col relative top-3"
               />;
             </div>
           </div>
