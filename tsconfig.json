@@ -25,6 +25,20 @@
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
+// {/* <div
+//             className="flex items-center gap-2 bg-gray-100 py-2 px-3 rounded-full mt-1"
+//           >
+//             <Image src="/images/plus icon.png" alt="plus" width={21} height={10} />
+
+//             <select
+//               className="bg-gray-100 text-[14px] lg:text-[13px] md:text-[13px] font-semibold focus:outline-none cursor-pointer"
+//             >
+//               <option value="sort">create</option>
+//               <option value="sort">Sort By</option>
+//               <option value="latest">Latest</option>
+//               <option value="earliest">Earliest</option>
+//             </select>
+//           </div> */}
 
 
 
